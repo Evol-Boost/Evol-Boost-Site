@@ -6,11 +6,8 @@ import Spline from '@splinetool/react-spline';
 function Home() {
   return (
     <div className="Home" id="Home">
-      <div className="bg">
-        <img src={bg} alt="" />
-      </div>
       <div className="bg img">
-      <Spline scene="https://prod.spline.design/zr2goV5qX4nV3DTS/scene.splinecode" />
+      <Spline scene="https://prod.spline.design/fAz8xitXQhbS2iC0/scene.splinecode" />
       </div>
       <div className="content">
         <h1>
