@@ -16,7 +16,7 @@ function Header() {
         <h1>Evol</h1>
         <span>Boost</span>
       </div>
-      <h2>Get-ur-evolution !</h2>
+      <h2></h2>
     </header>
   );
 }

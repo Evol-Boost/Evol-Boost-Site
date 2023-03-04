@@ -1,3 +1,7 @@
+.ImageSlider , .slider{
+  display: none;
+}
+
 .section2 {
   position: relative;
   display: flex;
@@ -16,6 +20,7 @@
   justify-content: space-between;
   align-items: center;
   margin-top: 25px;
+  padding-left: 20px;
   width: 100%;
 }
 
@@ -26,6 +31,7 @@
   max-width: 50%;
   align-items: center;
   justify-content: center;
+  font-family: "Varela Round", cursive;
 }
 
 .section2 .text h1 {
@@ -35,7 +41,7 @@
   align-items: center;
   gap: 15px;
   color: #fff;
-  font-size: 28px;
+  font-size: 35px;
   font-weight: 500;
   opacity: 0;
   padding: 10px 0;
@@ -50,7 +56,7 @@
   justify-content: flex-start;
   align-items: flex-start;
   display: inline-flex;
-  font-family: Varela Round, cursive;
+  font-family: "Varela Round", cursive;
   font-size: 40px;
   background: linear-gradient(50deg, var(--clr-pri), var(--clr-sec));
   -webkit-background-clip: text;
@@ -200,6 +206,21 @@
 }
 
 @media (max-width: 700px) {
+  .card_container, .card1, .card2, .card3{
+    display: none;
+  }
+
+  .slider{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 40px;
+  }
+
+  .slider_component {
+    width: 30%;
+  }
+
   .section2 {
     gap: 20px;
     width: 100vw;
@@ -209,15 +230,15 @@
   .section2 .text-content {
     display: flex;
     flex-direction: column;
-    margin-top: 20px;
+    margin-top: 5px;
   }
 
   .section2 .text-content h1 {
-    font-size: 16px;
+    font-size: 27px;
   }
 
   .section2 .text-content h1 span {
-    font-size: 20px;
+    font-size: 27px;
   }
 
   @keyframes animate-exp {
@@ -245,31 +266,21 @@
   .section2 .text-content .text {
     max-width: 100%;
   }
+}
 
-  .section2 .progress {
-    position: relative;
-    align-items: center;
-    display: flex;
-    justify-content: flex-start;
-    align-self: center;
-    margin-top: 30px;
-    gap: 40px;
-  }
+.card_container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+}
 
-  .section2 .progress .container {
-    height: 80px;
-    width: 80px;
-    gap: 5px;
-    font-size: 18px;
-    color: #fff;
-    cursor: pointer;
-    opacity: 0;
-    transform: translateY(100px);
-    transition: 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-  }
+.card1 , .card2, .card3{
+  padding: 20px;
+  transition: 0.3s;
+}
 
-  .section2 .progress .container span {
-    font-size: 15px;
-    max-width: 100%;
-  }
+.card1:hover, .card2:hover, .card3:hover {
+  cursor: pointer;
+  transition: 0.3s;
+  opacity: 80%;
 }

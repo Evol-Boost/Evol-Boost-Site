@@ -11,7 +11,6 @@
 
 .collection h1 {
   color: #fff;
-  font-family: Nova Round, cursive;
   font-size: 30px;
   margin-top: 10px;
   opacity: 0;
@@ -135,6 +134,152 @@
   background-position: 50%;
   background-size: cover;
 }
+img {
+  width: 25vw;
+  transition: 0.5s;
+}
+
+/* e-commerce */
+
+.textBox{
+  text-align:center;
+  color: white;
+  position: absolute;
+  bottom: 70%;
+  left: 7%;
+  font-family: 'Kanit', sans-serif;
+  border-bottom: 2px solid transparent;
+  border-image: linear-gradient(50deg, var(--clr-pri), var(--clr-sec));
+  border-image-slice: 1;
+  font-size: 1.2vw;
+}
+
+.e-commerce {
+  position: absolute;
+  top: 34%;
+  left: 0%;
+}
+
+.e-commerce_description {
+  position: absolute;
+  left: 10%;
+  bottom: 45%;
+  font-size: 1.3vw;
+  font-family: 'Kanit', sans-serif;
+  visibility: hidden;
+  color: white;
+}
+
+.e-commerce:hover {
+  z-index: 10;
+}
+
+.e-commerce:hover .e-commerce_description{
+  visibility: visible;
+}
+
+.e-commerce:hover .exemple_site {
+  width: 28vw;
+  transition: 0.5s;
+  z-index: 9;
+  filter: blur(4px);
+  cursor: pointer;
+}
+
+/* Vitrine */
+
+.textBox2{
+  text-align:center;
+  color: white;
+  position: absolute;
+  bottom: 70%;
+  right: 44%;
+  font-family: 'Kanit', sans-serif;
+  border-bottom: 2px solid transparent;
+  border-image: linear-gradient(50deg, var(--clr-pri), var(--clr-sec));
+  border-image-slice: 1;
+  font-size: 1.5vw;
+}
+
+.vitrine {
+  position: absolute;
+  top: 34%;
+  left: 34.5%;
+}
+
+.vitrine_description {
+  position: absolute;
+  left: 10%;
+  bottom: 45%;
+  font-size: 1.3vw;
+  font-family: 'Kanit', sans-serif;
+  visibility: hidden;
+  color: white;
+}
+
+.vitrine:hover {
+  z-index: 10;
+}
+
+.vitrine:hover .vitrine_description{
+  visibility: visible;
+}
+
+.vitrine:hover .exemple_site2 {
+  width: 28vw;
+  transition: 0.5s;
+  z-index: 9;
+  filter: blur(4px);
+  cursor: pointer;
+}
+
+/* Application */
+
+.textBox3{
+  text-align:center;
+  color: white;
+  position: absolute;
+  bottom: 70%;
+  right: 10%;
+  font-family: 'Kanit', sans-serif;
+  border-bottom: 2px solid transparent;
+  border-image: linear-gradient(50deg, var(--clr-pri), var(--clr-sec));
+  border-image-slice: 1;
+  font-size: 1.6vw;
+}
+
+.application_description {
+  position: absolute;
+  left: 10%;
+  bottom: 45%;
+  font-size: 1.3vw;
+  font-family: 'Kanit', sans-serif;
+  visibility: hidden;
+  color: white;
+}
+
+.application {
+  position: absolute;
+  top: 34%;
+  right: 0%;
+}
+
+.application:hover {
+  z-index: 10;
+}
+
+.application:hover .application_description{
+  visibility: visible;
+  z-index: 9;
+}
+
+.application:hover .exemple_site3 {
+  width: 28vw;
+  transition: 0.5s;
+  z-index: 9;
+  filter: blur(3px);
+  cursor: pointer;
+}
 
 @media (max-width: 700px) {
   .collection {
@@ -144,6 +289,67 @@
 
   .collection h1 {
     font-size: 18px;
+  }
+
+  img {
+    width: 60vw;
+  }
+
+  .textBox {
+    font-size: 2.5vw;
+    top: 10%;
+    left: 34%;
+  }
+
+  .e-commerce {
+    top: 15%;
+    left: 20%;
+  }
+
+  .e-commerce_description {
+    font-size: 3vw;
+  }
+
+  .e-commerce:hover .exemple_site {
+    width: 63vw;
+  }
+
+  .vitrine {
+    top: 40%;
+    left: 20%;
+  }
+
+  .textBox2 {
+    font-size: 3vw;
+    top: 37%;
+    left: 40%;
+  }
+
+  .vitrine_description {
+    font-size: 3vw;
+  }
+
+  .vitrine:hover .exemple_site2 {
+    width: 63vw;
+  }
+
+  .application {
+    top: 65%;
+    left: 20%;
+  }
+
+  .textBox3 {
+    font-size: 3.2vw;
+    top: 62%;
+    left: 10%;
+  }
+
+  .application_description {
+    font-size: 3vw;
+  }
+
+  .application:hover .exemple_site3 {
+    width: 63vw;
   }
 
   @keyframes animate-collection {

@@ -66,6 +66,15 @@
   animation: reveal 1s ease-out 2.5s forwards;
 }
 
+h42 {
+  color: #fff;
+  font-family: Poppins, sans-serif;
+  font-size: 60px;
+  position: absolute;
+  bottom: 20%;
+  left: 30%;
+}
+
 @keyframes reveal {
   to {
     height: 233px;
@@ -123,6 +132,15 @@
   .content h1 {
     font-size: 60px;
     line-height: 85px;
+  }
+
+  h42 {
+    color: #fff;
+    font-family: Poppins, sans-serif;
+    font-size: 40px;
+    position: absolute;
+    bottom: 23%;
+    left: 10%;
   }
 
   @keyframes reveal {
