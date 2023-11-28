@@ -17,7 +17,7 @@ function App() {
       <Home />
       <Section2 />
       <Contact />
-      {/* <Navbar2 /> */}
+      {/* <Navba2 /> */}
     </div>
   );
 }
