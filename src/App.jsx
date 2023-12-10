@@ -5,7 +5,6 @@ import Header from "./Components/Header";
 import Home from "./Components/Home";
 import Section2 from "./Components/Section2";
 import Spline from '@splinetool/react-spline';
-import Navbar2 from "./Components/Navbar2";
 
 function App() {
   return (
@@ -17,7 +16,6 @@ function App() {
       <Home />
       <Section2 />
       <Contact />
-      {/* <Navba2 /> */}
     </div>
   );
 }

@@ -1,4 +1,4 @@
-{
+ {
   "name": "Evol-Boost",
   "version": "0.1.0",
   "private": true,
@@ -7,6 +7,7 @@
     "@emotion/react": "^11.10.5",
     "@emotion/styled": "^11.10.5",
     "@mui/material": "^5.11.9",
+    "@mui/icons-material": "^5.14.3",
     "@splinetool/react-spline": "^2.2.5",
     "@splinetool/runtime": "^0.9.160",
     "@testing-library/jest-dom": "^5.16.4",

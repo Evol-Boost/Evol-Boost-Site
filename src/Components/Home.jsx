@@ -15,7 +15,7 @@ function Home() {
         </a>
       </div>
       <h42>
-        Get your Evolution !
+        Get your Booster !
       </h42>
     </div>
   );

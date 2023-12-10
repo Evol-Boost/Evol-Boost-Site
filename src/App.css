@@ -3,12 +3,8 @@
 @import url(https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap);
 
 :root {
-  --clr-pri: #ae004e;
-  --clr-sec: #225e77;
-}
-
-::-webkit-scrollbar {
-  width: 0;
+  --clr-pri: #5d359e;
+  --clr-sec: #56115f;
 }
 
 html {
@@ -19,7 +15,6 @@ html {
   margin: 0;
   box-sizing: border-box;
   padding: 0;
-  scroll-snap-type: y mandatory;
 }
 
 .bg {

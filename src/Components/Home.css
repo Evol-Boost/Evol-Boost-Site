@@ -130,14 +130,14 @@ h42 {
     margin-top: 50px;
   }
   .content h1 {
-    font-size: 60px;
-    line-height: 85px;
+    font-size: 40px;
+    line-height: 65px;
   }
 
   h42 {
     color: #fff;
     font-family: Poppins, sans-serif;
-    font-size: 40px;
+    font-size: 35px;
     position: absolute;
     bottom: 23%;
     left: 10%;
@@ -151,7 +151,7 @@ h42 {
     }
   }
   .content h1 c {
-    font-size: 80px;
+    font-size: 65px;
   }
   .content .show-me {
     margin-top: 40px;
