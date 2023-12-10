@@ -26,7 +26,7 @@ function Details() {
   }, []);
 
   return (
-    <div className={`section2 ${active && "active"}`} id="Section2">
+    <div className={`section2 ${active && "active"}`} id="Nos Prestations">
       <div className="text-content">
         <div className="text text1">
           <h1>

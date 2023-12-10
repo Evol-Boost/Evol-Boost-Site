@@ -10,7 +10,7 @@ function Home() {
           <c>Bienvenue</c> Chez <d>Evol</d> <br />
           Boost
         </h1>
-        <a href="#Section2" className="show-me">
+        <a href="#Nos Prestations" className="show-me">
           <span>En savoir plus</span>
         </a>
       </div>

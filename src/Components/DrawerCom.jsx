@@ -5,9 +5,14 @@ import AppsIcon from "@mui/icons-material/Apps";
 
 const DrawerCom = () => {
     const [openDrawer, SetOpenDrawer] = useState(false);
-    const pages = ["Agence", "Developpement, Logiciel", "Developpement Web", "Aide au Financement", "Contact"];
+    const pages = ["Agence", "Nos Prestations", "Réalisations", "Aide Financement", "Contact"];
 
+    const redirectionPage = (page) => {
+        console.log(page)
 
+        // Effectue la redirection vers la section spécifique
+        window.location.href = `#${page}`;
+    }
     return (
         <React.Fragment>
             <Drawer
@@ -23,12 +28,11 @@ const DrawerCom = () => {
                 <List sx={{marginTop: '20px'}}>
                     {
                         pages.map((page) => (
-                            <ListItemButton onClick={() => SetOpenDrawer(false)}>
+                            <ListItemButton onClick={() => { SetOpenDrawer(false); redirectionPage(page) }}>
                                 <ListItemIcon>
                                     <AppsIcon sx={{ color: "#FFFFFF" }} />
                                 </ListItemIcon>
                                 <ListItemText sx={{ color: "#ffffff", fontSize: "1rem" }}>
-
                                     {page}
                                 </ListItemText>
                             </ListItemButton>
