@@ -4,7 +4,7 @@
 
 :root {
   --clr-pri: #5d359e;
-  --clr-sec: #56115f;
+  --clr-sec: #361cc9;
 }
 
 html {
@@ -15,6 +15,7 @@ html {
   margin: 0;
   box-sizing: border-box;
   padding: 0;
+  scroll-snap-type: y mandatory;
 }
 
 .bg {
