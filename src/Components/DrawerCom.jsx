@@ -17,10 +17,10 @@ const DrawerCom = () => {
                         backgroundColor: "#0e0f30b5"
                     }
                 }} onClose={() => SetOpenDrawer(false)}>
-                <Typography sx={{ fontSize: "1.4rem", marginTop: '8px', color: "#FFFFFF" }}>
+                <Typography sx={{ fontSize: "1.4rem", marginTop: '20px', marginLeft: '18px', color: "#FFFFFF" }}>
                     Evol-Boost
                 </Typography>
-                <List>
+                <List sx={{marginTop: '20px'}}>
                     {
                         pages.map((page) => (
                             <ListItemButton onClick={() => SetOpenDrawer(false)}>
